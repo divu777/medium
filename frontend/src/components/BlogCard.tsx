@@ -26,10 +26,8 @@ const BlogCard = ({
             <p className="font-semibold text-gray-800">{authorName}</p>
             <p className="text-gray-500">{publishedDate}</p>
           </div>
-          <div className="mt-4 bg-red-100 w-full p-5">
-            <h1 className="text-2xl font-bold text-black w-1/3 bg-blue-300">
-              {title}
-            </h1>
+          <div className="mt-4 w-full p-5">
+            <h1 className="text-2xl font-bold text-black w-1/3 ">{title}</h1>
             <p className="text-gray-700 mt-2">
               {content.length <= 250
                 ? content
