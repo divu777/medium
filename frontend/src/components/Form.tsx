@@ -39,7 +39,7 @@ const Form = ({ type }: { type: "signup" | "signin" }) => {
               ? "Already have an account?"
               : "Don't have an account?"}
             <NavLink
-              to={type == "signup" ? "/signin" : "/signup"}
+              to={type == "signup" ? "/signin" : "/"}
               className="text-slate-500 hover:underline"
             >
               {type == "signup" ? " SignIn" : " SignUp"}
